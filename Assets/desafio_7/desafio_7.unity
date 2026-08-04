@@ -374,7 +374,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 674896240}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787665994}
+        m_TargetAssemblyTypeName: desafio_7, Assembly-CSharp
+        m_MethodName: click_upgrade
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &674896240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c2bf68a2515fe949a687bb302284298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::desafio_7
+  quant_rec: 0
+  clic_rec: 1
 --- !u!4 &787665995
 Transform:
   m_ObjectHideFlags: 0
@@ -641,17 +655,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266177154}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.0036375786, z: -0, w: 0.99999344}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1004652698}
   m_Father: {fileID: 1545283687}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.417, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: -0.000015259}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 324.952, y: 228.484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266177156
@@ -697,7 +711,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1266177157}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787665994}
+        m_TargetAssemblyTypeName: desafio_7, Assembly-CSharp
+        m_MethodName: click_button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1266177157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -899,7 +925,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1304568830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787665994}
+        m_TargetAssemblyTypeName: desafio_7, Assembly-CSharp
+        m_MethodName: click_upgrade
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 30
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1304568830
 MonoBehaviour:
   m_ObjectHideFlags: 0
