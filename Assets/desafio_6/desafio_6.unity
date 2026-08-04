@@ -285,6 +285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f86dd98ac95a13499ddb3f1aa23ffcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::desafio_6
+  xis: 100
+  ypsilon: 200
+  ze: 4
 --- !u!4 &2044020802
 Transform:
   m_ObjectHideFlags: 0
